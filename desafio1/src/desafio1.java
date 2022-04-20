@@ -1,4 +1,3 @@
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -7,8 +6,7 @@ import java.util.stream.Collectors;
 
 public class desafio1 {
 
-    //O metodo readLine pode trazer uma IOExcpetion.
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args){
 
         Scanner scanner = new Scanner(System.in);
         List<Integer> listaNumeros = new ArrayList<>();

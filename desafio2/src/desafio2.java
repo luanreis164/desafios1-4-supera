@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class desafio2 {
 
-    //O metodo readLine pode trazer uma IOExcpetion.
     public static void main(String[] args) {
 
             Scanner leitor = new Scanner(System.in);
